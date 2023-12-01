@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: #626de356;
+    color: #6a3f98;
+  }
+  
+  .navlist {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .navbarlist {
+    display: flex;
+    align-content: start;
+    justify-content: start;
+    padding: 30px;
+  
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .list p:hover {
+    color: #AFDBF5;
+  }
