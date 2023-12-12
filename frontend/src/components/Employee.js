@@ -1,4 +1,13 @@
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import "./Calender.css";
+
+
+
 const Employee = () => {
+
+    const [date, setDate] = useState(new Date());
+
     return (
         <>
             <div className="Emp">
@@ -8,8 +17,13 @@ const Employee = () => {
                     <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
                     <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
                 </div>
-                <div className="shadow-xl mt-24 rounded-xl w-[50rem] ml-15 h-96 p-10 m-10  bg-slate-400">
-                    <h1>employee</h1>
+                <div className='boxwithcalender'>
+                    <div className="shadow-xl mt-24 rounded-xl w-[50rem] ml-15 h-96 p-10 m-10  bg-slate-400">
+                        <h1>employee</h1>
+                    </div>
+                    <div className='calenderdiv'>
+                        <Calendar onChange={setDate} value={date} />
+                    </div>
                 </div>
                 <div className="shadow-xl  rounded-xl w-[50rem] ml-15 h-96 p-10 m-10 bg-slate-400  ">
                     <h1>start/end time</h1>

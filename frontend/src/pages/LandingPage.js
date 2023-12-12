@@ -1,6 +1,7 @@
 // YourComponent.js
 import React, { useState } from 'react';
-import './LandingPage.css'; // Import the CSS file
+import Calendar from 'react-calendar';
+import './LandingPage.css';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import Employee from '../components/Employee';
