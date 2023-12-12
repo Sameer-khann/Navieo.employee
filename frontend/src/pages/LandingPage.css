@@ -1,11 +1,11 @@
 .container {
     display: flex;
-    height: 100vh;
+    height: 300vh;
 }
 
 
 .right-section {
-    flex: .8;
+    flex: .7;
     background-color: #0f172a;
     color: whitesmoke;
     display: flex;
@@ -13,8 +13,11 @@
 }
 
 .left-section {
-    flex: .2;
-    background-color: rgb(0, 116, 78);
+    flex: .3;
+    background-color: #1e293b;
+    position: sticky;
+    top: 0;
+    z-index: 4;
 }
 
 .hidden{
@@ -53,4 +56,9 @@
 
 .HomeButton:hover{
     color: #a87efc;
+}
+
+.LandingPage{
+    display: flex;
+    flex-direction: column;
 }

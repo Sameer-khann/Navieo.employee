@@ -3,7 +3,7 @@
 
 .sidebarSection {
     font-family: Arial, sans-serif;
-    width: 100%;
+    width: 18vw;
     background-color: #1e293b;
     border-right: 1px solid rgba(255, 255, 255, 0.317);
     display: flex;
@@ -13,7 +13,10 @@
     color: white;
     height: 100vh;
     z-index: 1;
-
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    /*position: -webkit-sticky;*/
 }
 
 .HeadtextSidebar {
