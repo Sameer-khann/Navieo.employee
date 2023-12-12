@@ -13,7 +13,7 @@
     color: white;
     height: 100vh;
     z-index: 1;
-    position: sticky;
+    position: fixed;
     top: 0;
     overflow-y: auto;
     /*position: -webkit-sticky;*/
