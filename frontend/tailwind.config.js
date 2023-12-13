@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'background': "url('../src/assets/img/back.jpg')",
-       
+       // 'emp':"url('../src/assets/img/emp.png')"
     },
     },
     screens: {
