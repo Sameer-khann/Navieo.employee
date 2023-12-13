@@ -26,7 +26,7 @@ const LandingPage = () => {
                     <div className={`left-section ${isLeftSectionVisible ? '' : 'hidden'}`}>
                         <Sidebar />
                     </div>
-                    <div className="right-section">
+                    <div className={`right-section ${isLeftSectionVisible ? '' : 'right-sectionH'}`}>
                         <div className="HomeButton" onClick={toggleLeftSection}>Home</div>
                         <Employee />
                         {/* <div className="bottom-right-section">

@@ -26,42 +26,43 @@ const Employee = () => {
                         <Calendar onChange={setDate} value={date} />
                     </div>
                 </div>
-                
+
             </div>
-            <div className='flex'>
+            <div className='flex '>
                 <div>
-                <div className="shadow-xl  rounded-xl w-[50rem] ml-15 h-96 p-10 m-10 bg-slate-400  ">
-                    <h1>start/end time</h1>
-                    <div className="flex">
-                        <div className="flex-col ">
-                            <input className="rounded-xl p-5 m-4 " placeholder="start"></input>
-                            <input className="rounded-xl p-5 m-4 " placeholder=""></input>
-                        </div>
-                        <div className="flex-col ">
-                            <input className="rounded-xl p-5 m-4 " placeholder="end"></input>
-                            <input className="rounded-xl p-5 m-4 " placeholder="comment"></input>
+                    <div className="shadow-xl  rounded-xl  ml-15 h-96 p-10 m-10 bg-slate-400  ">
+                        <h1>start/end time</h1>
+                        <div className="flex">
+                            <div className="flex-col ">
+                                <input className="rounded-xl p-5 m-4 " placeholder="start"></input>
+                                <input className="rounded-xl p-5 m-4 " placeholder=""></input>
+                            </div>
+                            <div className="flex-col ">
+                                <input className="rounded-xl p-5 m-4 " placeholder="end"></input>
+                                <input className="rounded-xl p-5 m-4 " placeholder="comment"></input>
+
+                            </div>
 
                         </div>
-                       
+
+                        <button className="bg-white p-4 m-4 hover:bg-blue-950 ml-64 rounded-xl">Start/end</button>
                     </div>
 
-                    <button className="bg-white p-4 m-4 hover:bg-blue-950 ml-64 rounded-xl">Start/end</button>
+
+
+                    <div className="shadow-xl  rounded-xl  ml-15 h-96 p-10 m-10 bg-slate-400">
+                        <h1>All task</h1>
+                        <div className="bg-white w-[40rem] h-14 rounded-xl p-4 m-2"></div>
+                    </div>
                 </div>
-               
-                
-              
-                <div className="shadow-xl  rounded-xl w-[50rem] ml-15 h-96 p-10 m-10 bg-slate-400">
-                    <h1>All task</h1>
-                    <div className="bg-white w-[45rem] h-14 rounded-xl p-4 m-2"></div>
+                <div className='flex  justify-center  '>
+                    <div className="flex flex-col items-center mt-8 ">
+                        <Emplogs />
+                    </div>
+
+
                 </div>
-                </div>
-                <div className='flex w-80'>
-                    <div className="flex-col  ">
-                      <Emplogs/>
-                        </div>
-                   
-    </div>
-    </div>
+            </div>
         </>
     )
 }

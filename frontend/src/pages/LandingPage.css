@@ -15,6 +15,16 @@
     flex-direction: column;
 }
 
+.right-sectionH{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #0f172a;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
 .left-section {
     flex: .3;
     background-color: #1e293b;
