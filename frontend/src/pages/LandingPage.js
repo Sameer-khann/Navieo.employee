@@ -8,6 +8,8 @@ import Employee from '../components/Employee';
 import Form from '../components/Form';
 import Footer from '../components/Footer';
 
+import homeIcon from '../assets/img/icons8-menu-52.png'
+
 const LandingPage = () => {
 
     const [isLeftSectionVisible, setLeftSectionVisibility] = useState(true);
@@ -27,14 +29,17 @@ const LandingPage = () => {
                         <Sidebar />
                     </div>
                     <div className={`right-section ${isLeftSectionVisible ? '' : 'right-sectionH'}`}>
-                        <div className="HomeButton" onClick={toggleLeftSection}>Home</div>
+                    <div className="HomeButton" onClick={toggleLeftSection}>
+                            <img src={homeIcon} alt="" />
+                        </div>
                         <Employee />
                         {/* <div className="bottom-right-section">
                             <Form/>
                         </div> */}
+                                        <Footer />
+
                     </div>
                 </div>
-                {/* <Footer /> */}
             </div>
         </>
     );

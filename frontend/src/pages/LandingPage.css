@@ -61,10 +61,16 @@
 }
 
 .HomeButton{
-    padding: 0 20px;
+    height: 70px;
+    width: 70px;
+    padding: 10px 20px;
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.HomeButton img{
+    width: 100%;
 }
 
 .HomeButton:hover{
