@@ -6,7 +6,7 @@ const Emplogs = () => {
             <div className='bg-sky-950 rounded-xl border'>
                 <h1 className=' text-center font-semibold text-lg  p-2 '>Employee Activity Logs</h1>
 
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -17,7 +17,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -28,7 +28,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -39,7 +39,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -50,7 +50,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -61,7 +61,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
+                <div className=' flex h-22 w-60  border-white p-3 border-t-2'>
                     <div>
                         <img src={emp} className='rounded-full h-16 w-18'></img>
                         <h1 className='text-center'>lorem</h1>
@@ -72,17 +72,7 @@ const Emplogs = () => {
                         <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
                     </div>
                 </div>
-                <div className=' flex h-22 w-53  border-white p-3 border-t-2'>
-                    <div>
-                        <img src={emp} className='rounded-full h-16 w-18'></img>
-                        <h1 className='text-center'>lorem</h1>
-                    </div>
-
-                    <div className="">
-                        <div className='flex m-2'>Start time :<p className='font-bold ml-2'>7:00 PM</p></div>
-                        <div className='flex m-2'>End Time :<p className='font-bold ml-2'>11:00 PM</p></div>
-                    </div>
-                </div>
+              
                 
 
             </div>

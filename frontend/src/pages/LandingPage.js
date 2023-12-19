@@ -33,10 +33,7 @@ const LandingPage = () => {
                             <img src={homeIcon} alt="" />
                         </div>
                         <Employee />
-                        {/* <div className="bottom-right-section">
-                            <Form/>
-                        </div> */}
-                                        <Footer />
+                        <Footer />
 
                     </div>
                 </div>
