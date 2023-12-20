@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import "./Calender.css";
+import { Link } from 'react-router-dom';
 import emp from '../assets/img/emp.png';
 import Emplogs from './Emplogs';
 import "./Employee.css"
@@ -54,7 +55,9 @@ const Employee = () => {
                     <div className="flex items-center flex-col  shadow-xl rounded-xl ml-10 h-96 p-4 m-10 bg-slate-400" id='sectionAllTask'>
                         <div className='flex justify-between p-4 w-[40rem]' >
                             <div>All task</div>
+                            <Link to="/AllTasks">                            
                             <div className='textALLview'>view all &rarr;</div>
+                            </Link>
                         </div>
 
                         <div className="bg-white w-[40rem] h-14 rounded-xl p-4 m-2"></div>
@@ -65,8 +68,6 @@ const Employee = () => {
                     <div className="flex flex-col items-center mt-8 mr-4 mb-4">
                         <Emplogs />
                     </div>
-
-
                 </div>
             </div>
         </>
