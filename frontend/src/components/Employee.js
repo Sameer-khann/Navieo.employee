@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import emp from '../assets/img/emp.png';
 import Emplogs from './Emplogs';
 import "./Employee.css"
+import FlexBox from './FlexBox';
 
 
 const Employee = () => {
@@ -13,13 +14,8 @@ const Employee = () => {
 
     return (
         <>
-            <div className="Emp ">
-                <div className=" ml-5 flex mt-8 h-36 align-center justify-evenly  ">
-                    <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
-                    <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
-                    <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
-                    <div className=" bg-slate-400 w-56 p-20 m-5 rounded-lg"></div>
-                </div>
+            <div className="Emp">
+                <FlexBox/>
                 <div className='flex  boxwithcalender mt-24'>
                     <div className="shadow-xl  rounded-xl w-[50rem]  h-[20rem] p-10 m-10  bg-slate-400">
                         <h1>employee</h1>

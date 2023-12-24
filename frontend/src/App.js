@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Alltasks from './pages/Alltasks';
 import ScrollToTop from './components/ScrollToTop';
+import Attendance from './pages/Attendance';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<LandingPage/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/AllTasks" element={<Alltasks />} />
+          <Route path="/Attendance" element={<Attendance/>}/>
         </Routes>
       </Router>
     </>
