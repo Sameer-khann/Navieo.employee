@@ -4,7 +4,7 @@ import { FaMessage } from "react-icons/fa6";
 import { FaRegBell } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaInfo } from "react-icons/fa";
-import NavieoLogo from "D:/React project/demo/src/img/NavieoLogo.jpeg";
+import NavieoLogo from '../assets/img/logo.jpeg';
 
 class Navbar extends Component {
     state = {clicked: false};
