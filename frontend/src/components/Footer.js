@@ -60,9 +60,9 @@ export default function Footer() {
                             <span className='LogoDisFooterP'>We have advanced skills & resources to create large-scale solutions as well as guide startups from idea to profit. We a SYC!</span>
                         </div>
                         <div className="socialMedia">
+                            {/* <img src="" alt="" />
                             <img src="" alt="" />
-                            <img src="" alt="" />
-                            <img src="" alt="" />
+                            <img src="" alt="" /> */}
                         </div>
 
                     </div>

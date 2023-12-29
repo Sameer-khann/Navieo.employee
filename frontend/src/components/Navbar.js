@@ -5,6 +5,7 @@ import { FaRegBell } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaInfo } from "react-icons/fa";
 import NavieoLogo from '../assets/img/logo.jpeg';
+import {Link} from "react-router-dom"
 
 class Navbar extends Component {
     state = {clicked: false};
@@ -15,13 +16,20 @@ class Navbar extends Component {
     return (
         <>
             <nav>
-                <img src={NavieoLogo} alt="Logo"></img>
+                <img className="Navimglogo" src={NavieoLogo} alt="Logo"></img>
                 <div>
                     <ul id="navbar" className={this.state.clicked?"#navbar active" : "#navbar"}>
                         <li><a href="#"><FaInfo/></a></li>
                         <li><a href="#"><FaMessage/></a></li>
                         <li><a href="#"><FaRegBell/></a></li>
                         <li><a href="#"><FaRegUser/></a></li>
+                        <Link to="/Admin">
+                        <li><a>Admin</a></li>
+                        </Link> 
+                        <Link to="/">
+                        <li><a>Empolyee</a></li>
+                        </Link>
+
                     </ul>
                 </div>
                 <div id="mobile" onClick={this.handleClick}>

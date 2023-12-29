@@ -27,9 +27,10 @@ nav {
   color: #fff;
   align-items: center;
 }
-img{
+.Navimglogo{
   width: 100px;
   height: 50px;
+  mix-blend-mode: color-burn;
 }
 @media screen and (max-width:769px){
   #navbar{

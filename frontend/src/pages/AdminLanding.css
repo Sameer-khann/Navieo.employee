@@ -1,39 +1,39 @@
-.container {
+.Admin-container {
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
 
 
-.right-section {
+.Admin-right-section {
     position: absolute;
     right: 0;
     left: 18%;
-    background-color: #0f172a;
-    color: whitesmoke;
+    background-color: #352F44;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
 }
 
-.right-sectionH{
+.Admin-right-sectionH{
     position: absolute;
     right: 0;
     left: 0;
-    background-color: #0f172a;
+    background-color: #352F44;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
 }
 
-.left-section {
+.Admin-left-section {
     flex: .3;
-    background-color: #1e293b;
+    background-color: #352F44;
     position: fixed;
     top: 0;
     z-index: 4;
 }
 
-.hidden{
+.Admin-hidden{
     margin-left: -320px;
 }
 
@@ -53,14 +53,14 @@
         flex-direction: column;
     }
 
-    .left-section,
-    .right-section {
+    .Admin-left-section,
+    .Admin-right-section {
         width: 100%;
         margin-left: 0;
     }
 }
 
-.HomeButton{
+.Admin-HomeButton{
     height: 40px;
     width: 80px;
     padding: 10px 20px;
@@ -69,11 +69,11 @@
     cursor: pointer;
 }
 
-.HomeButton img{
+.Admin-HomeButton img{
     width: 100%;
 }
 
-.HomeButton:hover{
+.Admin-HomeButton:hover{
     color: #a87efc;
 }
 

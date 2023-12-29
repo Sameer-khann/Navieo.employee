@@ -1,0 +1,14 @@
+.AdmintextALLview{
+    color: rgb(1, 1, 79);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.AdminBox{
+    background-color: #B9B4C7;
+}
+
+.inputBox{
+    background-color: #FAF0E6;
+}
